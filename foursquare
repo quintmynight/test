@@ -1,0 +1,74 @@
+//...
+  {
+    "id": "40abf500f964a52035f31ee4",
+    "name": "ShopMart",
+    "contact": {
+      "twitter": "shopmart",
+      "facebook": "1044756343124"
+      //...
+      },
+    "location": {
+      "address": "593 Ninth Ave",
+      "crossStreet": "at W 43rd St",
+      "lat": 40.758934,
+      "lng": -73.992516,
+      "distance": 451,
+      "postalCode": "10036",
+      "cc": "US",
+      "city": "New York",
+      "state": "NY",
+      "country": "United States"
+      //...
+    },
+    "categories": [
+      {
+        "id": "4d954b0ea243a5684a65b473",
+        "name": "Convenience Store",
+        "pluralName": "Convenience Stores",
+        "shortName": "Convenience Store",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "stats": {
+      "checkinsCount": 12443,
+      "usersCount": 4661,
+      "tipCount": 652
+    },
+    "url": "http://shopmart.com",
+    "menu": {
+      "url": "http://www.starbucks.com/menu"
+    },
+    "storeId": "9467",
+    "venueChains": [
+      {
+        "id": "556f676fbd6a75a99038d8ec"
+      }
+    ]
+  },
+  //...
+  {
+    "id": "40abf500f964a52035f3zzz1",
+    "name": "ShopMart",
+    "location": {
+      "distance": 125
+      //...
+    }
+    //...
+  },
+  {
+    "id": "40abf500f964a52035f3awdj",
+    "name": "ShopMart",
+    "location": {
+      "distance": 281
+      //...
+    }
+    //...
+  }
+//...
+Get tips on a given place
+ENDPOINT: venues/X/tips 
+PARAMETERS: venueId = 4ef0e7cf7beb5932d5bdeb4e; sort = recent
